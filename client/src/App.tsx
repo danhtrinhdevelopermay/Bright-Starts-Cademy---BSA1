@@ -51,7 +51,7 @@ function AppContent() {
             className="w-32 h-32 rounded-xl"
           />
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary">BSA</div>
+            <div className="text-3xl font-bold text-primary">BSC</div>
             <div className="text-sm text-muted-foreground">Bright Starts</div>
           </div>
         </div>

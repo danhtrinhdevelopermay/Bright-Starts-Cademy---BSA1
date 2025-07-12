@@ -128,11 +128,11 @@ export function AuthForm() {
           <div className="flex justify-center mb-4">
             <img 
               src="/logo.png" 
-              alt="BSA Logo" 
+              alt="BSC Logo" 
               className="w-16 h-16 rounded-xl"
             />
           </div>
-          <CardTitle className="text-2xl font-bold">Welcome to BSA</CardTitle>
+          <CardTitle className="text-2xl font-bold">Welcome to BSC</CardTitle>
           <CardDescription>
             Bright Starts Academy - Your learning journey begins here 🌟
           </CardDescription>

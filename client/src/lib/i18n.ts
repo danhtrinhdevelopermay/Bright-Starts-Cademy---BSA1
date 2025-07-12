@@ -65,7 +65,7 @@ export const translations = {
     
     // Landing Page
     landing: {
-      title: 'Welcome to BSA',
+      title: 'Welcome to BSC',
       subtitle: 'Bright Starts Academy',
       description: 'Your comprehensive learning management platform',
       heroTitle: 'Transform Your Learning Journey',
@@ -354,7 +354,7 @@ export const translations = {
     
     // Landing Page
     landing: {
-      title: 'Chào mừng đến với BSA',
+      title: 'Chào mừng đến với BSC',
       subtitle: 'Học viện Khởi Đầu Tươi Sáng',
       description: 'Nền tảng quản lý học tập toàn diện của bạn',
       heroTitle: 'Thay đổi hành trình học tập của bạn',

@@ -103,11 +103,11 @@ export default function Landing() {
             <div className="flex items-center space-x-3">
               <img 
                 src="/logo.png" 
-                alt="BSA Logo" 
+                alt="BSC Logo" 
                 className="w-10 h-10 rounded-xl"
               />
               <div className="flex flex-col">
-                <span className="text-2xl font-bold">BSA</span>
+                <span className="text-2xl font-bold">BSC</span>
                 <span className="text-xs text-muted-foreground -mt-1">Bright Starts</span>
               </div>
               <Badge variant="secondary" className="bg-accent/20 text-accent border-accent/30">
@@ -407,11 +407,11 @@ export default function Landing() {
               <div className="flex items-center space-x-3 mb-6">
                 <img 
                   src="/logo.png" 
-                  alt="BSA Logo" 
+                  alt="BSC Logo" 
                   className="w-10 h-10 rounded-xl"
                 />
                 <div className="flex flex-col">
-                  <span className="text-2xl font-bold">BSA</span>
+                  <span className="text-2xl font-bold">BSC</span>
                   <span className="text-xs text-muted-foreground -mt-1">Bright Starts</span>
                 </div>
               </div>

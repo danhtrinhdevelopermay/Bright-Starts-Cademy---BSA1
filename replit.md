@@ -124,15 +124,15 @@ The application follows a monorepo structure with shared TypeScript types and sc
 ## Recent Changes
 
 ### App Rebranding to Bright Starts Academy (July 2025)
-- **Changed**: Complete rebrand from "StudyVibe" to "Bright Starts Academy" (BSA)
+- **Changed**: Complete rebrand from "StudyVibe" to "Bright Starts Academy" (BSC)
 - **Updates**:
-  - Navigation shows "BSA" in large letters with "Bright Starts" subtitle
+  - Navigation shows "BSC" in large letters with "Bright Starts" subtitle
   - New logo (logo.png) replaces graduation cap icon
   - Animated loading screen (animated.gif) replaces spinner
   - Updated app title, meta tags, and favicon
   - Landing page hero section reflects new branding
   - Authentication forms updated with new branding
-  - All references to "StudyVibe" replaced with "BSA" or "Bright Starts"
+  - All references to "StudyVibe" replaced with "BSC" or "Bright Starts"
 
 ### Media URL Optimization (July 2025)
 - **Problem**: Long data URLs stored in database causing performance lag
@@ -220,3 +220,14 @@ The application follows a monorepo structure with shared TypeScript types and sc
   - Easier access for domain verification tools
   - Consistent with industry standard practices
 - **Impact**: Enhanced compatibility with verification services and improved SEO tool accessibility
+
+### Brand Abbreviation Update (July 2025)
+- **Changed**: Updated abbreviation from "BSA" to "BSC" across all platform components
+- **Updated Files**:
+  - Navigation components (top navigation and footer)
+  - Landing page branding elements
+  - Authentication forms and loading screen
+  - HTML meta tags and structured data
+  - Translation files (English and Vietnamese)
+  - Progressive Web App manifest
+- **Impact**: Consistent branding with "BSC" abbreviation while maintaining "Bright Starts Academy" full name
