@@ -206,3 +206,17 @@ The application follows a monorepo structure with shared TypeScript types and sc
     - Social features (posts, comments, notifications)
   - Language switcher component with dropdown selection
 - **Impact**: Enables Vietnamese and international users to fully utilize the platform in their preferred language, significantly expanding the user base potential
+
+### SEO Files Root Directory Migration (July 2025)
+- **Changed**: Moved SEO and verification files from /client/public to project root directory
+- **Files Moved**:
+  - robots.txt: From client/public/robots.txt to ./robots.txt
+  - sitemap.xml: From client/public/sitemap.xml to ./sitemap.xml
+  - manifest.json: From client/public/manifest.json to ./manifest.json
+  - security.txt: From client/public/.well-known/security.txt to ./.well-known/security.txt
+- **Benefits**:
+  - Improved accessibility for third-party verification services
+  - Better compliance with web standards and SEO best practices
+  - Easier access for domain verification tools
+  - Consistent with industry standard practices
+- **Impact**: Enhanced compatibility with verification services and improved SEO tool accessibility

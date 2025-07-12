@@ -792,22 +792,22 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // SEO and Meta Routes
   app.get("/robots.txt", (req, res) => {
     res.type('text/plain');
-    res.sendFile(join(process.cwd(), 'client/public/robots.txt'));
+    res.sendFile(join(process.cwd(), 'robots.txt'));
   });
 
   app.get("/sitemap.xml", (req, res) => {
     res.type('application/xml');
-    res.sendFile(join(process.cwd(), 'client/public/sitemap.xml'));
+    res.sendFile(join(process.cwd(), 'sitemap.xml'));
   });
 
   app.get("/manifest.json", (req, res) => {
     res.type('application/json');
-    res.sendFile(join(process.cwd(), 'client/public/manifest.json'));
+    res.sendFile(join(process.cwd(), 'manifest.json'));
   });
 
   app.get("/.well-known/security.txt", (req, res) => {
     res.type('text/plain');
-    res.sendFile(join(process.cwd(), 'client/public/.well-known/security.txt'));
+    res.sendFile(join(process.cwd(), '.well-known/security.txt'));
   });
 
   // Health check endpoint for monitoring
